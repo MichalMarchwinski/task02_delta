@@ -4,7 +4,6 @@ import static main.Task02.delta;
 import static main.Task02.numberOfElementsGiven;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import main.Task02;
 import org.junit.jupiter.api.Test;
 
 public class MainTest {
@@ -15,9 +14,26 @@ public class MainTest {
     }
 
     @Test
-    void testDelt(){
-        assertEquals(-3, delta(1,1,1));
+    void testNoDelta(){
+        
     }
+
+    @Test
+    void testOneDelta(){
+        
+    }
+
+    @Test
+    void testTwoDelta(){
+        
+    }
+
+    @Test
+    void testPrintOut(){
+
+    }
+
+
 }
 
 
